@@ -1,24 +1,26 @@
 # kamera-teman
+A simple admin dashboard for kamera teman created with VUE.js
 
-## Project setup
-```
-npm install
-```
+## Result
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+**Dashboard Page**
+![Dashboard page](https://github.com/aryarfani/kamera-teman-vue/blob/master/screenshots/dashboard.png?raw=true)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+**Transaksi Page**
+![Transaksi page](https://github.com/aryarfani/kamera-teman-vue/blob/master/screenshots/transaksi.png?raw=true)
 
-### Lints and fixes files
-```
-npm run lint
-```
+**Members Page**
+![Members page](https://github.com/aryarfani/kamera-teman-vue/blob/master/screenshots/members.png?raw=true)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+**Edit Member Page**
+![Edit Member page](https://github.com/aryarfani/kamera-teman-vue/blob/master/screenshots/edit%20member.png?raw=true)
+
+## Installing
+
+ - git clone https://github.com/aryarfani/kamera-teman-vue.git
+ - npm run serve
+ 
+ ## Caution 
+ please run your browser chrome using this command if you run into CORS error
+
+> chrome.exe --user-data-dir="C:/Chrome dev session" --disable-web-security
