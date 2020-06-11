@@ -38,6 +38,9 @@
               <p class="badge badge-success" v-if="transaksi.status == 1">
                 Dipinjam
               </p>
+              <p class="badge badge-danger" v-if="transaksi.status == 3">
+                Dibatalkan
+              </p>
             </td>
             <template v-if="transaksi.status == 0">
               <td>

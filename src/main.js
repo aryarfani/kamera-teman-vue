@@ -6,8 +6,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap";
 
 import axios from "axios";
-axios.defaults.baseURL = "http://kamera-api.000webhostapp.com/api";
-// axios.defaults.baseURL = "http://localhost/lumen/kamera-teman/public/api";
+axios.defaults.baseURL = "https://api-kamera.000webhostapp.com/api";
 
 Vue.config.productionTip = false;
 
